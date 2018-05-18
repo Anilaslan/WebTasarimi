@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#DEDEDE;
+}
+
+.baslik {
+  overflow: hidden;
+  background-color:white;
+  position:fixed;
+  width:100%;
+  border-bottom:3px solid #f47c48;
+}
+
+.baslik a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Tahoma;
+  font-weight:bold;
+}
+
+.baslik a:hover {
+  background-color: #ddd;
+  color: black;
+  transition:.3s ease;
+}
+
+.baslik a.aktif {
+  background-color:#f47c48;
+  color: white;
+}
+
+.baslik ul {
+	list-style-type:none;
+	margin-left:30%;
+	margin-top:0;
+}
+
+.baslik ul li {
+	float:left;	
+}
+
+.baslik img {
+	margin-top:11px;
+	padding-left:15px;
+	position:absolute;
+}
+
+#icerik {
+	width:1080px;
+	height:100%;
+	background-color:white;
+	padding-top:52px;
+	margin:auto;	
+}
+
+.icerikbasliklari {
+	padding-top:10px;
+	padding-left:20px;
+	padding-bottom:10px;
+	color:#f47c48;
+}
+
+.boyutlar {
+	padding-left:20px;
+	height:400px;
+}
+
+.filmisimleri {
+	padding-top:10px;
+	padding-left:20px;
+	padding-bottom:0px;
+	text-decoration:underline;
+}
+.yanyana {
+	display:flex
+}
+
+.ozetler {
+	padding:0px 20px;
+}
+.videoboyutlari {
+	padding-left:30px;
+	padding-top:0px;
+	padding-right:30px;
+	height:396px;
+}
+
+.konusu {
+	color:#f47c48;
+	padding:0px 20px;
+}
+
+.imdb {
+	color:red;
+	padding:0px 20px;
+}
+
+.search {
+  width: 300px;
+  position: relative;
+  margin-left:152%;
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #f47c48;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #f47c48;
+}
+
+.searchTerm:focus{
+  color: #f47c48;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #f47c48;
+  background: #f47c48;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  z-index:100;
+  top: 50%;
+  left: 50%;
+  padding-left:41%;
+  padding-bottom:15px;
+  transform: translate(-50%, -50%);
+}
+#searchbar button {
+	background-image:url(search.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:27px 27px;
+}
+.pagination {
+    display: inline-block;
+	margin-left:32%;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+	font-weight:bold;
+}
+
+.pagination a.active {
+    background-color: #f47c48;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+.pagination a {
+    border-radius: 5px;
+}
+
+.pagination a.active {
+    border-radius: 5px;
+}
+
+
+
+.bitis {
+	overflow: hidden;
+	background-color:white;
+	width:1066px;
+	height:45px;
+	border-top:3px solid #f47c48;
+	padding:7px;
+	display:flex;
+	margin:auto;
+	position:relative;
+	
+	
+	
+}
+
+.media {
+	width:45px;
+	height:45px;
+	padding-right:5px;
+}
+
+#hak {
+	margin-left:55%;
+	margin-top:15px;
+	position:absolute;
+}
